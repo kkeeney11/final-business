@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    }
+
+
+body {
+    background-color:#f2eafc;
+    background-repeat: no-repeat;
+}
+/* the main container */
+
+.card{
+  width: 254px;
+  height: 441px;
+  margin: 50px  auto;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:rgb(27, 27, 50);
+  border-radius: 30px;
+}
+
+.card2
+{
+  background-image: url('assets/backcard1.png');
+  background-size: cover;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+  position: relative; top: 40px;
+  color: #d5baf4;
+}
+
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  position: relative; top: 40px;
+  color: #d5baf4;
+} 
+
+h3{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  text-indent: 10px;
+  position: relative; top: 280px;
+  
+}
+
+a:link, a:visited {
+  color: #cbb6e6;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 151, 206);
+}
