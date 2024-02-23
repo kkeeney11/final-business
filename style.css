@@ -7,8 +7,9 @@
 
 
 body {
-    background-color:#f2eafc;
-    background-repeat: no-repeat;
+    background-color:#f6abca;
+    background-image: url('pink-background.png');
+    background-size:cover;
 }
 /* the main container */
 
@@ -17,14 +18,20 @@ body {
   height: 441px;
   margin: 50px  auto;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:rgb(27, 27, 50);
+  background-color:rgb(255, 255, 255);
   border-radius: 30px;
+  background-image: url('rosy-maple-moth.png');
+  background-size: 175px;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
 }
 
 .card2
 {
-  background-image: url('assets/backcard1.png');
-  background-size: cover;
+  background-color: #f06aa2;
+  background-image: none;
 }
 
 h1{
@@ -34,27 +41,28 @@ h1{
   font-style: normal;
   text-align: center;
   font-size: 40px;
-  position: relative; top: 40px;
-  color: #d5baf4;
+  position: relative; top: 30px;
+  color: #f06aa2;
 }
 
 h2{
   margin-top: 0px;
   padding-top: 0px;
   font-family: "Oregano", cursive;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   font-size: 24px;
-  text-align: center;
-  position: relative; top: 40px;
-  color: #d5baf4;
+  text-align: left;
+  text-indent: 22px;
+  position: relative; top: 30px;
+  color: #f6abca;
 } 
 
 h3{
   margin-top: 0px;
   padding-top: 0px;
   font-family: "Sarabun", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
   font-size: 16px;
   text-align: left;
@@ -64,12 +72,12 @@ h3{
 }
 
 a:link, a:visited {
-  color: #cbb6e6;
+  color: #f6abca;
   padding: 0px 0px;
   text-align: center;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(0, 151, 206);
+  color: #f06aa2;
 }
